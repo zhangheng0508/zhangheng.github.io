@@ -1,0 +1,24 @@
+/**app.wxss**/
+page{
+  font-size: 20px;
+  color: #667;
+  font-family: microsoft yahei;
+}
+.daohang{
+  font-size: 18px;
+  color: #333;
+}
+
+
+.proplaisi{
+  color: orange;
+}
+.pro{
+  width: 30%;
+  margin-bottom: 10px;
+  border: 1px solid #f9f9f9;
+}
+.pro image{
+  width: 100%;
+  height: 150px;
+}

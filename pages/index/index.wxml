@@ -1,0 +1,47 @@
+<swiper indicator-dots="{{indicatorDots}}"
+autoplay="{{autoplay}}"interval="{{interval}}"duration="{{duration}}"circular="{{circular}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='daohang'>
+  <text>新品上市</text>
+  <text>果农客服</text>
+  <text>时令拼团</text>
+  <text>果园风光</text>
+</view>
+
+<view class='content'>
+    <view class='pro'>
+      <image src='../image/pt.jpg'></image>
+      <view class='proname'>新疆葡萄</view>
+      <view class='proplaisi'>￥ 13.03/斤</view>  
+    </view>
+     <view class='pro'>
+      <image src='../image/pg.jpg'></image>
+      <view class='proname'>苹果</view>
+      <view class='proplaisi'>￥ 20/斤</view>
+    </view>
+     <view class='pro'>
+      <image src='../image/yt.jpg'></image>
+      <view class='proname'>樱桃</view>
+      <view class='proplaisi'>￥ 10/斤</view>
+    </view>
+     <view class='pro'>
+      <image src='../image/mht.jpg'></image>
+      <view class='proname'>猕猴桃</view>
+      <view class='proplaisi'>￥ 40/斤</view>
+    </view>
+     <view class='pro'>
+      <image src='../image/cm.jpg'></image>
+      <view class='proname'>草莓</view>
+      <view class='proplaisi'>￥ 18/斤</view>
+    </view>
+     <view class='pro'>
+      <image src='../image/xg.jpg'></image>
+      <view class='proname'>西瓜</view>
+      <view class='proplaisi'>￥ 15/斤</view>
+    </view>
+</view>

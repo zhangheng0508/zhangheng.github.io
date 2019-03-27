@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5B223",
+    "navigationBarTitleText": "水果商城",
+    "navigationBarTextStyle": "black"
+  }, 
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/pages/image/shouye.png",
+      "selectedIconPath": "/pages/image/shouyes.png"
+    },{
+      "pagePath": "pages/cart/cart",
+      "text": "专题",
+      "iconPath": "/pages/image/zt.png",
+      "selectedIconPath": "/pages/image/zts.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "分类",
+      "iconPath": "/pages/image/fenlei.png",
+      "selectedIconPath": "/pages/image/fenleis.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "购物车",
+      "iconPath": "/pages/image/gwc.png",
+      "selectedIconPath": "/pages/image/gwcs.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "我",
+      "iconPath": "/pages/image/w.png",
+      "selectedIconPath": "/pages/image/ws.png"
+    }]
+  }
+}
